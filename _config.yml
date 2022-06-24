@@ -4,7 +4,6 @@ description: 'My Personal Website'
 baseurl: ''
 profilepic: '/images/avatar.jpg'
 bkimage: '/images/bk1.jpeg'
-google_analytics: UA-XXXXXX-X
 font_awesome: '53d7a3a62b.js'
 url: https://xtliu162857.github.io
 
