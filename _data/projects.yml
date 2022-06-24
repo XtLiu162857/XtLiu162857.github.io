@@ -1,0 +1,12 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: AI Composer
+  link: pages/composer.html
+  img: images/ai_composer.jpeg
+  desc: An AI composer web application. The pieces the piano plays are composed by an LSTM-based recurrent neural network which is designed to model polyphonic music with expressive timing and dynamics.
+
+
+- name: Image Deblurring
+  link: https://ieeexplore.ieee.org/document/9744936
+  img: images/image_deblurring.png
+  desc: In this work, we proposed an algorithm based on Generative Adversarial Networks (GAN) to deblur blurred images. Specifically, our GAN used FPN-Mobile-net in the generator and Double-GAN in the discriminator.

@@ -1,0 +1,34 @@
+# Site settings
+title: Xiaotian Liu
+description: 'My Personal Website'
+baseurl: ''
+profilepic: '/images/avatar.jpg'
+bkimage: '/images/bk1.jpeg'
+google_analytics: UA-XXXXXX-X
+font_awesome: '53d7a3a62b.js'
+url: https://xtliu162857.github.io
+
+
+
+author:
+  name: 'Xiaotian Liu'
+  email: 'xiaotian.liu0325@gmail.com'
+  github_username:  'xtliu0325'
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md']
