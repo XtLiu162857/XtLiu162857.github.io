@@ -22,7 +22,6 @@
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
 
-            {% if site.author.email %}
               <!-- Email -->
               <li class="navigation__item">
                 <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
@@ -31,7 +30,13 @@
                   <span class="label">Email</span>
                 </a>
               </li>
-            {% endif %}
+
+              <li class="navigation__item">
+                <a href="{{ site.url }}/images/resume.pdf" target="_blank">
+                  <i class="fa-solid fa-file-user"></i>
+                  <span class="label">Resume</span>
+                </a>
+              </li>
 
             </ul>
           </nav>
